@@ -1,0 +1,95 @@
+/* ------------------- About Section ------------------- */
+.about {
+  padding: 3rem 1rem;
+  background: #f8fafc; /* një sfond i lehtë për kontrast */
+}
+
+.about .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.about p {
+  color: #334155;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* ------------------- Cards Wrapper ------------------- */
+.about-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* ------------------- Individual Card ------------------- */
+.about-card {
+  flex: 1 1 260px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background-color: rgb(238, 246, 248);
+}
+
+.about-card h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.about-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.about-card ul {
+  color: #475569;
+  font-size: 0.95rem;
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+/* ------------------- Responsive ------------------- */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-card {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 2rem 1rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+  }
+}
