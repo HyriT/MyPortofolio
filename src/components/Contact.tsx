@@ -10,8 +10,8 @@ export default function Contact() {
       <section id="contact" className="contact">
         <div className="container contact inner">
           <div className="left">
-            <h2>Contact Me</h2>
-            <p style={{ color: "#475569", marginBottom: 12 }}>
+            <h2 style={{ color: "#ffffffff"}}>Contact Me</h2>
+            <p style={{ color: "#ffffffff", marginBottom: 12 }}>
               Do you have any question? Write a message
             </p>
             <form onSubmit={handleSubmit}>

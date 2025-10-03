@@ -16,8 +16,8 @@ export default function Hero(){
             </div>
             <div className="right">
                 <div style={{
-                    width: 320,
-            height: 220,
+                    width: 560,
+            height: 420,
             borderRadius: 12,
             boxShadow: "0 10px 30px rgba(210, 213, 223, 0.2)",
             display: "flex",
@@ -25,12 +25,13 @@ export default function Hero(){
             justifyContent: "center",
             color: "#04263a",
             marginLeft:"100px",
-            fontWeight: 700,
+            fontWeight: 900,
             backgroundImage: `url("https://www.4cpl.tech/ast/uploads/2023/06/Web-Development.jpg")`,
              backgroundRepeat: "no-repeat",
               marginBottom: "250px",
               backgroundPosition: "center",
-              backgroundSize: "cover"            
+              backgroundSize: "cover",
+
                 }}></div>
 
             </div>

@@ -2,16 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    background: #0b1220;
+
+
 }
 html, body, #root {
   height: 100%;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   scroll-behavior: smooth;
-  background: #f4f7fb;
-  color: #0f1724;
+  background: hsl(214, 47%, 97%);
 }
 a { color: inherit; text-decoration: none; }
 button { cursor: pointer; }
 ul { list-style-type: none; }
+body, p, h1, h2, h3, h4, h5, h6, a, li, span, label, input, textarea, button {
+  color: #ffffff;
+}
 
 
